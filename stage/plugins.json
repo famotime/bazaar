@@ -1,6 +1,52 @@
 {
   "repos": [
     {
+      "installSize": 1863183,
+      "openIssues": 1,
+      "package": {
+        "author": "azusa",
+        "backends": [
+          "all"
+        ],
+        "description": {
+          "default": "AI agent for SiYuan with chat, note actions, model providers, and scheduled tasks",
+          "zh_CN": "思源笔记 AI 助手，支持对话、笔记操作、模型供应商和定时任务"
+        },
+        "disabledInPublish": true,
+        "displayName": {
+          "default": "SiYuan Agent",
+          "zh_CN": "思源 AI 助手"
+        },
+        "frontends": [
+          "all"
+        ],
+        "funding": {
+          "custom": null,
+          "github": "",
+          "openCollective": "",
+          "patreon": ""
+        },
+        "keywords": [
+          "AI",
+          "agent",
+          "chat",
+          "automation"
+        ],
+        "minAppVersion": "3.5.3",
+        "name": "siyuan-agent",
+        "readme": {
+          "default": "README.md",
+          "zh_CN": "README_zh_CN.md"
+        },
+        "url": "https://github.com/RiviaAzusa/siyuan-agent",
+        "version": "0.1.2"
+      },
+      "size": 501924,
+      "stars": 0,
+      "updated": "2026-04-27T14:35:31Z",
+      "url": "RiviaAzusa/siyuan-agent@13a87118d42cabd4e9286a4895d3c76a733b89d4"
+    },
+    {
       "installSize": 94278,
       "openIssues": 12,
       "package": {
