@@ -1,6 +1,161 @@
 {
   "repos": [
     {
+      "installSize": 633105,
+      "openIssues": 0,
+      "package": {
+        "author": "whale🐋",
+        "backends": [
+          "all"
+        ],
+        "description": {
+          "default": "A points reward management plugin for habit tracking. Add points, create wishes, track progress with calendar and charts.",
+          "zh_CN": "凡人修仙传主题打卡插件。每日添加灵石记录修行，创建心愿单激励自己，通过日历和图表追踪修仙进度，助你养成良好习惯，证得大道。"
+        },
+        "disabledInPublish": true,
+        "displayName": {
+          "default": "凡人修仙传：打卡",
+          "en_US": "Cultivation Tracker"
+        },
+        "frontends": [
+          "all"
+        ],
+        "funding": null,
+        "keywords": [
+          "points",
+          "reward",
+          "habit",
+          "tracker",
+          "wishlist",
+          "gamification",
+          "灵石",
+          "奖励",
+          "习惯",
+          "心愿单",
+          "游戏化",
+          "打卡",
+          "养成"
+        ],
+        "minAppVersion": "3.0.0",
+        "name": "siyuan-points-reward",
+        "readme": {
+          "default": "README.md",
+          "zh_CN": "README_zh_CN.md"
+        },
+        "url": "https://github.com/HaoCeans/siyuan-points-reward",
+        "version": "0.8.5"
+      },
+      "size": 285263,
+      "stars": 2,
+      "updated": "2026-04-28T11:22:06Z",
+      "url": "HaoCeans/siyuan-points-reward@944af7322efaaffb48e8312caa8bc2e94d53dcb0"
+    },
+    {
+      "installSize": 133745,
+      "openIssues": 2,
+      "package": {
+        "author": "zxkmm",
+        "backends": [
+          "all"
+        ],
+        "description": {
+          "en_US": "Add those plugins/ themes/ icons/ templates/ widgets you don&#39;t wanna see to black list so you won&#39;t see it in marketplace.",
+          "zh_CN": "把您不想看到的集市插件/主题/图标/模板/挂件添加到黑名单, 您就再也不会看到它"
+        },
+        "disabledInPublish": false,
+        "displayName": {
+          "en_US": "siyuan_marketplace_blacklist",
+          "zh_CN": "集市助手"
+        },
+        "frontends": [
+          "desktop",
+          "browser-desktop",
+          "desktop-window"
+        ],
+        "funding": {
+          "custom": [
+            "https://zxkmm.com/donate"
+          ],
+          "github": "",
+          "openCollective": "",
+          "patreon": ""
+        },
+        "keywords": [
+          "集市",
+          "助手",
+          "黑名单",
+          "集市黑名单",
+          "隐藏",
+          "移除",
+          "zxkmm",
+          "marketplace blacklist",
+          "marketplace",
+          "blacklist",
+          "blocklist",
+          "remove",
+          "hide"
+        ],
+        "minAppVersion": "3.6.0",
+        "name": "siyuan_marketplace_blacklist",
+        "readme": {
+          "en_US": "README.md",
+          "zh_CN": "README_zh_CN.md"
+        },
+        "url": "https://github.com/zxkmm/siyuan_marketplace_blacklist",
+        "version": "1.0.3"
+      },
+      "size": 108633,
+      "stars": 29,
+      "updated": "2026-04-28T10:21:10Z",
+      "url": "zxkmm/siyuan_marketplace_blacklist@1410353ff13068c6a4d86e4a79daa034a4ef66d5"
+    },
+    {
+      "installSize": 1864662,
+      "openIssues": 1,
+      "package": {
+        "author": "azusa",
+        "backends": [
+          "all"
+        ],
+        "description": {
+          "default": "AI agent for SiYuan with chat, note actions, model providers, and scheduled tasks",
+          "zh_CN": "思源笔记 AI 助手，支持对话、笔记操作、模型供应商和定时任务"
+        },
+        "disabledInPublish": true,
+        "displayName": {
+          "default": "SiYuan Agent",
+          "zh_CN": "思源 AI 助手"
+        },
+        "frontends": [
+          "all"
+        ],
+        "funding": {
+          "custom": null,
+          "github": "",
+          "openCollective": "",
+          "patreon": ""
+        },
+        "keywords": [
+          "AI",
+          "agent",
+          "chat",
+          "automation"
+        ],
+        "minAppVersion": "3.5.3",
+        "name": "siyuan-agent",
+        "readme": {
+          "default": "README.md",
+          "zh_CN": "README_zh_CN.md"
+        },
+        "url": "https://github.com/RiviaAzusa/siyuan-agent",
+        "version": "0.1.3"
+      },
+      "size": 501626,
+      "stars": 0,
+      "updated": "2026-04-28T09:48:10Z",
+      "url": "RiviaAzusa/siyuan-agent@54cc83b6eb166b613ef3e32caf9a663eb97a9f5f"
+    },
+    {
       "installSize": 4077201,
       "openIssues": 39,
       "package": {
@@ -306,52 +461,6 @@
       "url": "mm-o/siyuan-sireader@b79a3a6c2c800a89d474eb19ae7570cb11236e25"
     },
     {
-      "installSize": 1863183,
-      "openIssues": 1,
-      "package": {
-        "author": "azusa",
-        "backends": [
-          "all"
-        ],
-        "description": {
-          "default": "AI agent for SiYuan with chat, note actions, model providers, and scheduled tasks",
-          "zh_CN": "思源笔记 AI 助手，支持对话、笔记操作、模型供应商和定时任务"
-        },
-        "disabledInPublish": true,
-        "displayName": {
-          "default": "SiYuan Agent",
-          "zh_CN": "思源 AI 助手"
-        },
-        "frontends": [
-          "all"
-        ],
-        "funding": {
-          "custom": null,
-          "github": "",
-          "openCollective": "",
-          "patreon": ""
-        },
-        "keywords": [
-          "AI",
-          "agent",
-          "chat",
-          "automation"
-        ],
-        "minAppVersion": "3.5.3",
-        "name": "siyuan-agent",
-        "readme": {
-          "default": "README.md",
-          "zh_CN": "README_zh_CN.md"
-        },
-        "url": "https://github.com/RiviaAzusa/siyuan-agent",
-        "version": "0.1.2"
-      },
-      "size": 501924,
-      "stars": 0,
-      "updated": "2026-04-27T14:35:31Z",
-      "url": "RiviaAzusa/siyuan-agent@13a87118d42cabd4e9286a4895d3c76a733b89d4"
-    },
-    {
       "installSize": 94278,
       "openIssues": 12,
       "package": {
@@ -622,56 +731,6 @@
       "stars": 30,
       "updated": "2026-04-27T07:24:35Z",
       "url": "yangtaihong59/siyuan-plugins-mcp-sisyphus@aa0aab5571710251559e7cbc41ac9c1aced176de"
-    },
-    {
-      "installSize": 628819,
-      "openIssues": 0,
-      "package": {
-        "author": "whale🐋",
-        "backends": [
-          "all"
-        ],
-        "description": {
-          "default": "A points reward management plugin for habit tracking. Add points, create wishes, track progress with calendar and charts.",
-          "zh_CN": "凡人修仙传主题打卡插件。每日添加灵石记录修行，创建心愿单激励自己，通过日历和图表追踪修仙进度，助你养成良好习惯，证得大道。"
-        },
-        "disabledInPublish": true,
-        "displayName": {
-          "default": "凡人修仙传：打卡",
-          "en_US": "Cultivation Tracker"
-        },
-        "frontends": [
-          "all"
-        ],
-        "funding": null,
-        "keywords": [
-          "points",
-          "reward",
-          "habit",
-          "tracker",
-          "wishlist",
-          "gamification",
-          "灵石",
-          "奖励",
-          "习惯",
-          "心愿单",
-          "游戏化",
-          "打卡",
-          "养成"
-        ],
-        "minAppVersion": "3.0.0",
-        "name": "siyuan-points-reward",
-        "readme": {
-          "default": "README.md",
-          "zh_CN": "README_zh_CN.md"
-        },
-        "url": "https://github.com/HaoCeans/siyuan-points-reward",
-        "version": "0.8.4"
-      },
-      "size": 284078,
-      "stars": 1,
-      "updated": "2026-04-26T15:29:08Z",
-      "url": "HaoCeans/siyuan-points-reward@e476faff5f4e85ad2bbed9db64a82cf2022afb6f"
     },
     {
       "installSize": 1552001,
@@ -14062,65 +14121,6 @@
       "stars": 1,
       "updated": "2024-10-24T07:14:17Z",
       "url": "zuoez02/siyuan-plugin-docky@785294ca4b2d8ab13255d28192f7ff001f639a37"
-    },
-    {
-      "installSize": 132023,
-      "openIssues": 2,
-      "package": {
-        "author": "zxkmm",
-        "backends": [
-          "all"
-        ],
-        "description": {
-          "en_US": "Add those plugins/ themes/ icons/ templates/ widgets you don&#39;t wanna see to black list so you won&#39;t see it in marketplace.",
-          "zh_CN": "把您不想看到的集市插件/主题/图标/模板/挂件添加到黑名单, 您就再也不会看到它"
-        },
-        "disabledInPublish": false,
-        "displayName": {
-          "en_US": "siyuan_marketplace_blacklist",
-          "zh_CN": "集市助手"
-        },
-        "frontends": [
-          "desktop",
-          "browser-desktop",
-          "desktop-window"
-        ],
-        "funding": {
-          "custom": [
-            "https://github.com/zxkmm/zxkmm"
-          ],
-          "github": "",
-          "openCollective": "",
-          "patreon": ""
-        },
-        "keywords": [
-          "集市",
-          "助手",
-          "黑名单",
-          "集市黑名单",
-          "隐藏",
-          "移除",
-          "zxkmm",
-          "marketplace blacklist",
-          "marketplace",
-          "blacklist",
-          "blocklist",
-          "remove",
-          "hide"
-        ],
-        "minAppVersion": "2.11.4",
-        "name": "siyuan_marketplace_blacklist",
-        "readme": {
-          "en_US": "README.md",
-          "zh_CN": "README_zh_CN.md"
-        },
-        "url": "https://github.com/siyuan-note/plugin-sample-vite-svelte",
-        "version": "1.0.1"
-      },
-      "size": 107715,
-      "stars": 26,
-      "updated": "2024-10-19T08:47:20Z",
-      "url": "zxkmm/siyuan_marketplace_blacklist@c19001755a44f09fea01722c60c4ba97c89fe97e"
     },
     {
       "installSize": 203778,
