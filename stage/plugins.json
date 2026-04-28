@@ -1,6 +1,93 @@
 {
   "repos": [
     {
+      "installSize": 839944,
+      "openIssues": 5,
+      "package": {
+        "author": "LunaNorth",
+        "backends": [
+          "all"
+        ],
+        "description": {
+          "default": "A lightweight note-taking plugin for SiYuan, inspired by Flomo",
+          "zh_CN": "记录每一个轻闪而过的念头"
+        },
+        "disabledInPublish": true,
+        "displayName": {
+          "default": "Lumina",
+          "zh_CN": "轻语"
+        },
+        "frontends": [
+          "all"
+        ],
+        "funding": {
+          "custom": [],
+          "github": "",
+          "openCollective": "",
+          "patreon": ""
+        },
+        "keywords": [
+          "碎碎念",
+          "记录",
+          "回顾"
+        ],
+        "minAppVersion": "3.3.3",
+        "name": "siyuan-lumina",
+        "readme": {
+          "default": "README.md"
+        },
+        "url": "https://github.com/LunaNorth/siyuan-lumina",
+        "version": "1.1.7"
+      },
+      "size": 235704,
+      "stars": 2,
+      "updated": "2026-04-28T15:18:40Z",
+      "url": "LunaNorth/siyuan-lumina@d3d4da3ea85682bbe0ee1449752f06dcf36531cd"
+    },
+    {
+      "installSize": 1329610,
+      "openIssues": 10,
+      "package": {
+        "author": "Achuan-2",
+        "backends": [
+          "all"
+        ],
+        "description": {
+          "default": "SiYuan AI Assistant, supports dragging blocks and tabs to get note context, enabling Q&amp;A and editing based on SiYuan note content",
+          "zh_CN": "思源笔记 AI 助手,支持拖动块、页签获取笔记上下文，实现基于思源笔记内容进行问答和编辑"
+        },
+        "disabledInPublish": true,
+        "displayName": {
+          "default": "SiYuan Copilot",
+          "zh_CN": "SiYuan Copilot"
+        },
+        "frontends": [
+          "all"
+        ],
+        "funding": {
+          "custom": [
+            "https://fastly.jsdelivr.net/gh/Achuan-2/PicBed/assets/20241128221208-2024-11-28.png"
+          ],
+          "github": "",
+          "openCollective": "",
+          "patreon": ""
+        },
+        "keywords": [],
+        "minAppVersion": "3.6.0",
+        "name": "siyuan-plugin-copilot",
+        "readme": {
+          "default": "README_en_US.md",
+          "zh_CN": "README.md"
+        },
+        "url": "https://github.com/Achuan-2/siyuan-plugin-copilot",
+        "version": "2.3.11"
+      },
+      "size": 509540,
+      "stars": 110,
+      "updated": "2026-04-28T14:58:26Z",
+      "url": "Achuan-2/siyuan-plugin-copilot@fda73dab399e8b60b476528f59779b488c5ccd92"
+    },
+    {
       "installSize": 4997528,
       "openIssues": 1,
       "package": {
@@ -313,49 +400,6 @@
       "url": "MoonBottle/siyuan-plugin-bullet-journal@133a500e081d47e004920030ed1062b3abe2bda9"
     },
     {
-      "installSize": 1328479,
-      "openIssues": 10,
-      "package": {
-        "author": "Achuan-2",
-        "backends": [
-          "all"
-        ],
-        "description": {
-          "default": "SiYuan AI Assistant, supports dragging blocks and tabs to get note context, enabling Q&amp;A and editing based on SiYuan note content",
-          "zh_CN": "思源笔记 AI 助手,支持拖动块、页签获取笔记上下文，实现基于思源笔记内容进行问答和编辑"
-        },
-        "disabledInPublish": true,
-        "displayName": {
-          "default": "SiYuan Copilot",
-          "zh_CN": "SiYuan Copilot"
-        },
-        "frontends": [
-          "all"
-        ],
-        "funding": {
-          "custom": [
-            "https://fastly.jsdelivr.net/gh/Achuan-2/PicBed/assets/20241128221208-2024-11-28.png"
-          ],
-          "github": "",
-          "openCollective": "",
-          "patreon": ""
-        },
-        "keywords": [],
-        "minAppVersion": "3.6.0",
-        "name": "siyuan-plugin-copilot",
-        "readme": {
-          "default": "README_en_US.md",
-          "zh_CN": "README.md"
-        },
-        "url": "https://github.com/Achuan-2/siyuan-plugin-copilot",
-        "version": "2.3.10"
-      },
-      "size": 509252,
-      "stars": 110,
-      "updated": "2026-04-28T02:35:00Z",
-      "url": "Achuan-2/siyuan-plugin-copilot@d319de8500ff16e62f7f8c1b749bdf1603c802cd"
-    },
-    {
       "installSize": 8729707,
       "openIssues": 2,
       "package": {
@@ -400,50 +444,6 @@
       "stars": 15,
       "updated": "2026-04-28T02:34:25Z",
       "url": "5kyfkr/siyuan-plugin-task-horizon@69b5f05e919db17177514050c18017263c9d0e39"
-    },
-    {
-      "installSize": 793628,
-      "openIssues": 7,
-      "package": {
-        "author": "LunaNorth",
-        "backends": [
-          "all"
-        ],
-        "description": {
-          "default": "A lightweight note-taking plugin for SiYuan, inspired by Flomo",
-          "zh_CN": "记录每一个轻闪而过的念头"
-        },
-        "disabledInPublish": true,
-        "displayName": {
-          "default": "Lumina",
-          "zh_CN": "轻语"
-        },
-        "frontends": [
-          "all"
-        ],
-        "funding": {
-          "custom": [],
-          "github": "",
-          "openCollective": "",
-          "patreon": ""
-        },
-        "keywords": [
-          "碎碎念",
-          "记录",
-          "回顾"
-        ],
-        "minAppVersion": "3.3.3",
-        "name": "siyuan-lumina",
-        "readme": {
-          "default": "README.md"
-        },
-        "url": "https://github.com/LunaNorth/siyuan-lumina",
-        "version": "1.1.6"
-      },
-      "size": 226683,
-      "stars": 2,
-      "updated": "2026-04-27T16:47:19Z",
-      "url": "LunaNorth/siyuan-lumina@299c9c28ae0972a3162084905544371e1cb34eb4"
     },
     {
       "installSize": 3270083,
@@ -1118,6 +1118,43 @@
       "stars": 19,
       "updated": "2026-04-22T08:47:50Z",
       "url": "zxkmm/siyuan_mobile_marketplace@c3f4fcab03e5275f9efd44163e099a82d0e83f7c"
+    },
+    {
+      "installSize": 132036,
+      "openIssues": 1,
+      "package": {
+        "author": "wyg",
+        "backends": [
+          "all"
+        ],
+        "description": {
+          "default": "Smart search plugin that works seamlessly with both Traditional and Simplified Chinese characters",
+          "zh_CN": "智能繁简体通用检索插件,支持关键词高亮和精确定位",
+          "zh_TW": "智能繁簡體通用檢索插件,支持關鍵詞高亮和精確定位"
+        },
+        "disabledInPublish": false,
+        "displayName": {
+          "default": "Unified Traditional/Simplified Chinese Search",
+          "zh_CN": "繁简体通用检索",
+          "zh_TW": "繁簡體通用檢索"
+        },
+        "frontends": [
+          "all"
+        ],
+        "funding": null,
+        "keywords": null,
+        "minAppVersion": "3.0.0",
+        "name": "siyuan-unified-search",
+        "readme": {
+          "default": "README.md"
+        },
+        "url": "https://github.com/fujingzhai/siyuan-unified-search",
+        "version": "1.0.2"
+      },
+      "size": 82653,
+      "stars": 1,
+      "updated": "2026-04-22T05:38:16Z",
+      "url": "fujingzhai/siyuan-unified-search@56b46a706af342363d2f9a6b7c976420dc2adbc9"
     },
     {
       "installSize": 1100297,
@@ -6606,43 +6643,6 @@
       "stars": 0,
       "updated": "2025-12-24T03:51:34Z",
       "url": "kuangdongksk/sy-lively@fe571c4c6a9a9a33aa1be3e49a5ac3a24153f3eb"
-    },
-    {
-      "installSize": 124977,
-      "openIssues": 0,
-      "package": {
-        "author": "wyg",
-        "backends": [
-          "all"
-        ],
-        "description": {
-          "default": "Smart search plugin that works seamlessly with both Traditional and Simplified Chinese characters",
-          "zh_CN": "智能繁简体通用检索插件,支持关键词高亮和精确定位",
-          "zh_TW": "智能繁簡體通用檢索插件,支持關鍵詞高亮和精確定位"
-        },
-        "disabledInPublish": false,
-        "displayName": {
-          "default": "Unified Traditional/Simplified Chinese Search",
-          "zh_CN": "繁简体通用检索",
-          "zh_TW": "繁簡體通用檢索"
-        },
-        "frontends": [
-          "all"
-        ],
-        "funding": null,
-        "keywords": null,
-        "minAppVersion": "3.0.0",
-        "name": "siyuan-unified-search",
-        "readme": {
-          "default": "README.md"
-        },
-        "url": "https://github.com/youxia2025-wq/siyuan-unified-search",
-        "version": "1.0.0"
-      },
-      "size": 81180,
-      "stars": 1,
-      "updated": "2025-12-21T06:02:39Z",
-      "url": "youxia2025-wq/siyuan-unified-search@716e31a6805f43c9394d5906c840f9a1a284f9a4"
     },
     {
       "installSize": 118448,
