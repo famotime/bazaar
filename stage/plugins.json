@@ -1,6 +1,145 @@
 {
   "repos": [
     {
+      "installSize": 6642713,
+      "openIssues": 2,
+      "package": {
+        "author": "MoonBottle",
+        "backends": [
+          "all"
+        ],
+        "description": {
+          "default": "Task assistant for managing your todos and projects — calendar, gantt chart and project views, all in one",
+          "zh_CN": "任务管理助手，日历、甘特图、项目视图一应俱全"
+        },
+        "disabledInPublish": true,
+        "displayName": {
+          "default": "Task Assistant",
+          "zh_CN": "任务助手"
+        },
+        "frontends": [
+          "all"
+        ],
+        "funding": {
+          "custom": [
+            "https://cdn.jsdelivr.net/gh/MoonBottle/siyuan-plugin-bullet-journal@main/asset/donate.png"
+          ],
+          "github": "",
+          "openCollective": "",
+          "patreon": ""
+        },
+        "keywords": [
+          "bullet journal",
+          "calendar",
+          "gantt",
+          "project",
+          "task",
+          "management"
+        ],
+        "minAppVersion": "2.10.14",
+        "name": "siyuan-plugin-bullet-journal",
+        "readme": {
+          "default": "README.md",
+          "zh_CN": "README_zh_CN.md"
+        },
+        "url": "https://github.com/MoonBottle/siyuan-plugin-bullet-journal",
+        "version": "0.12.8"
+      },
+      "size": 2965779,
+      "stars": 10,
+      "updated": "2026-04-28T03:52:40Z",
+      "url": "MoonBottle/siyuan-plugin-bullet-journal@133a500e081d47e004920030ed1062b3abe2bda9"
+    },
+    {
+      "installSize": 1328479,
+      "openIssues": 10,
+      "package": {
+        "author": "Achuan-2",
+        "backends": [
+          "all"
+        ],
+        "description": {
+          "default": "SiYuan AI Assistant, supports dragging blocks and tabs to get note context, enabling Q&amp;A and editing based on SiYuan note content",
+          "zh_CN": "思源笔记 AI 助手,支持拖动块、页签获取笔记上下文，实现基于思源笔记内容进行问答和编辑"
+        },
+        "disabledInPublish": true,
+        "displayName": {
+          "default": "SiYuan Copilot",
+          "zh_CN": "SiYuan Copilot"
+        },
+        "frontends": [
+          "all"
+        ],
+        "funding": {
+          "custom": [
+            "https://fastly.jsdelivr.net/gh/Achuan-2/PicBed/assets/20241128221208-2024-11-28.png"
+          ],
+          "github": "",
+          "openCollective": "",
+          "patreon": ""
+        },
+        "keywords": [],
+        "minAppVersion": "3.6.0",
+        "name": "siyuan-plugin-copilot",
+        "readme": {
+          "default": "README_en_US.md",
+          "zh_CN": "README.md"
+        },
+        "url": "https://github.com/Achuan-2/siyuan-plugin-copilot",
+        "version": "2.3.10"
+      },
+      "size": 509252,
+      "stars": 110,
+      "updated": "2026-04-28T02:35:00Z",
+      "url": "Achuan-2/siyuan-plugin-copilot@d319de8500ff16e62f7f8c1b749bdf1603c802cd"
+    },
+    {
+      "installSize": 8729707,
+      "openIssues": 2,
+      "package": {
+        "author": "5kyfkr",
+        "backends": [
+          "all"
+        ],
+        "description": {
+          "default": "Aggregate tasks across documents with rule-based filters, grouping/sorting, configurable columns, and a quickbar editor for SiYuan.",
+          "zh_CN": "思源笔记任务管理器：汇总多文档任务，支持AI助手/白板/时间轴/日历/看板/清单/表格视图/四象限分组/悬浮条快速编辑/自定义加权排序。支持与底栏番茄钟联动、移动端原生日程通知"
+        },
+        "disabledInPublish": true,
+        "displayName": {
+          "default": "Task Horizon",
+          "zh_CN": "任务管理器"
+        },
+        "frontends": [
+          "all"
+        ],
+        "funding": {
+          "custom": [
+            "https://free.picui.cn/free/2026/02/25/699f05ad97ce4.png"
+          ],
+          "github": "",
+          "openCollective": "",
+          "patreon": ""
+        },
+        "keywords": [
+          "task",
+          "manager",
+          "filter"
+        ],
+        "minAppVersion": "3.6.4",
+        "name": "siyuan-plugin-task-horizon",
+        "readme": {
+          "default": "README.md"
+        },
+        "url": "https://github.com/5kyfkr/siyuan-plugin-task-horizon",
+        "version": "2.3.8"
+      },
+      "size": 1921696,
+      "stars": 15,
+      "updated": "2026-04-28T02:34:25Z",
+      "url": "5kyfkr/siyuan-plugin-task-horizon@69b5f05e919db17177514050c18017263c9d0e39"
+    },
+    {
       "installSize": 793628,
       "openIssues": 7,
       "package": {
@@ -439,52 +578,6 @@
       "url": "yangtaihong59/siyuan-plugins-mcp-sisyphus@aa0aab5571710251559e7cbc41ac9c1aced176de"
     },
     {
-      "installSize": 8550776,
-      "openIssues": 2,
-      "package": {
-        "author": "5kyfkr",
-        "backends": [
-          "all"
-        ],
-        "description": {
-          "default": "Aggregate tasks across documents with rule-based filters, grouping/sorting, configurable columns, and a quickbar editor for SiYuan.",
-          "zh_CN": "思源笔记任务管理器：汇总多文档任务，支持AI助手/白板/时间轴/日历/看板/清单/表格视图/四象限分组/悬浮条快速编辑/自定义加权排序。支持与底栏番茄钟联动、移动端原生日程通知"
-        },
-        "disabledInPublish": true,
-        "displayName": {
-          "default": "Task Horizon",
-          "zh_CN": "任务管理器"
-        },
-        "frontends": [
-          "all"
-        ],
-        "funding": {
-          "custom": [
-            "https://free.picui.cn/free/2026/02/25/699f05ad97ce4.png"
-          ],
-          "github": "",
-          "openCollective": "",
-          "patreon": ""
-        },
-        "keywords": [
-          "task",
-          "manager",
-          "filter"
-        ],
-        "minAppVersion": "3.6.4",
-        "name": "siyuan-plugin-task-horizon",
-        "readme": {
-          "default": "README.md"
-        },
-        "url": "https://github.com/5kyfkr/siyuan-plugin-task-horizon",
-        "version": "2.3.7"
-      },
-      "size": 1862190,
-      "stars": 15,
-      "updated": "2026-04-26T16:26:48Z",
-      "url": "5kyfkr/siyuan-plugin-task-horizon@fceb6481390d4d135cf130bdeaca63f0d1ade74e"
-    },
-    {
       "installSize": 628819,
       "openIssues": 0,
       "package": {
@@ -624,56 +717,6 @@
       "url": "Dammyxy/siyuan-plugin-siyuanmemo@cee5235b9e228fb642fe45532ba9b9b4df399abe"
     },
     {
-      "installSize": 6682250,
-      "openIssues": 2,
-      "package": {
-        "author": "MoonBottle",
-        "backends": [
-          "all"
-        ],
-        "description": {
-          "default": "Task assistant for managing your todos and projects — calendar, gantt chart and project views, all in one",
-          "zh_CN": "任务管理助手，日历、甘特图、项目视图一应俱全"
-        },
-        "disabledInPublish": true,
-        "displayName": {
-          "default": "Task Assistant",
-          "zh_CN": "任务助手"
-        },
-        "frontends": [
-          "all"
-        ],
-        "funding": {
-          "custom": [
-            "https://cdn.jsdelivr.net/gh/MoonBottle/siyuan-plugin-bullet-journal@main/asset/donate.png"
-          ],
-          "github": "",
-          "openCollective": "",
-          "patreon": ""
-        },
-        "keywords": [
-          "bullet journal",
-          "calendar",
-          "gantt",
-          "project",
-          "task",
-          "management"
-        ],
-        "minAppVersion": "2.10.14",
-        "name": "siyuan-plugin-bullet-journal",
-        "readme": {
-          "default": "README.md",
-          "zh_CN": "README_zh_CN.md"
-        },
-        "url": "https://github.com/MoonBottle/siyuan-plugin-bullet-journal",
-        "version": "0.12.7"
-      },
-      "size": 3016106,
-      "stars": 10,
-      "updated": "2026-04-26T03:26:34Z",
-      "url": "MoonBottle/siyuan-plugin-bullet-journal@258b2b2b250e2667f6c50cf77ed4b6ef48455c3b"
-    },
-    {
       "installSize": 2836621,
       "openIssues": 0,
       "package": {
@@ -750,49 +793,6 @@
       "stars": 3,
       "updated": "2026-04-25T12:39:57Z",
       "url": "famotime/siyuan-doc-assist@53cc9d3cfd65960d13dcddbee6f31d16474db8c2"
-    },
-    {
-      "installSize": 1327104,
-      "openIssues": 10,
-      "package": {
-        "author": "Achuan-2",
-        "backends": [
-          "all"
-        ],
-        "description": {
-          "default": "SiYuan AI Assistant, supports dragging blocks and tabs to get note context, enabling Q&amp;A and editing based on SiYuan note content",
-          "zh_CN": "思源笔记 AI 助手,支持拖动块、页签获取笔记上下文，实现基于思源笔记内容进行问答和编辑"
-        },
-        "disabledInPublish": true,
-        "displayName": {
-          "default": "SiYuan Copilot",
-          "zh_CN": "SiYuan Copilot"
-        },
-        "frontends": [
-          "all"
-        ],
-        "funding": {
-          "custom": [
-            "https://fastly.jsdelivr.net/gh/Achuan-2/PicBed/assets/20241128221208-2024-11-28.png"
-          ],
-          "github": "",
-          "openCollective": "",
-          "patreon": ""
-        },
-        "keywords": [],
-        "minAppVersion": "3.6.0",
-        "name": "siyuan-plugin-copilot",
-        "readme": {
-          "default": "README_en_US.md",
-          "zh_CN": "README.md"
-        },
-        "url": "https://github.com/Achuan-2/siyuan-plugin-copilot",
-        "version": "2.3.9"
-      },
-      "size": 508937,
-      "stars": 108,
-      "updated": "2026-04-25T09:44:21Z",
-      "url": "Achuan-2/siyuan-plugin-copilot@2c2f151be4834f433fe5eda9f1e6ace8be420ba6"
     },
     {
       "installSize": 5400390,
