@@ -1,7 +1,7 @@
 {
   "repos": [
     {
-      "installSize": 772324,
+      "installSize": 786793,
       "openIssues": 3,
       "package": {
         "author": "mustakshif",
@@ -37,12 +37,12 @@
           "zh_CN": "README_zh_CN.md"
         },
         "url": "https://github.com/mustakshif/Asri",
-        "version": "3.6.16"
+        "version": "3.6.17"
       },
-      "size": 302013,
+      "size": 302412,
       "stars": 117,
-      "updated": "2026-04-26T15:11:02Z",
-      "url": "mustakshif/Asri@dc9e8345d442af38a06b697c3bc5d8b1a4cc9f1b"
+      "updated": "2026-04-29T03:30:33Z",
+      "url": "mustakshif/Asri@bb5304248da2610746a245f90454debb096101f3"
     },
     {
       "installSize": 1605872,
