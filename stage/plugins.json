@@ -1,6 +1,50 @@
 {
   "repos": [
     {
+      "installSize": 893096,
+      "openIssues": 2,
+      "package": {
+        "author": "LunaNorth",
+        "backends": [
+          "all"
+        ],
+        "description": {
+          "default": "A lightweight note-taking plugin for SiYuan, inspired by Flomo",
+          "zh_CN": "记录每一个轻闪而过的念头"
+        },
+        "disabledInPublish": true,
+        "displayName": {
+          "default": "Lumina",
+          "zh_CN": "轻语"
+        },
+        "frontends": [
+          "all"
+        ],
+        "funding": {
+          "custom": [],
+          "github": "",
+          "openCollective": "",
+          "patreon": ""
+        },
+        "keywords": [
+          "碎碎念",
+          "记录",
+          "回顾"
+        ],
+        "minAppVersion": "3.3.3",
+        "name": "siyuan-lumina",
+        "readme": {
+          "default": "README.md"
+        },
+        "url": "https://github.com/LunaNorth/siyuan-lumina",
+        "version": "1.2.0"
+      },
+      "size": 247535,
+      "stars": 2,
+      "updated": "2026-04-30T14:24:33Z",
+      "url": "LunaNorth/siyuan-lumina@60b6ad00a56d58a6604543394b323c2f67c5faef"
+    },
+    {
       "installSize": 309896,
       "openIssues": 1,
       "package": {
@@ -283,50 +327,6 @@
       "stars": 8,
       "updated": "2026-04-30T00:13:06Z",
       "url": "royc01/pinch@c61f0b8609fc534dcfd111180532cd32d5396d3b"
-    },
-    {
-      "installSize": 873376,
-      "openIssues": 3,
-      "package": {
-        "author": "LunaNorth",
-        "backends": [
-          "all"
-        ],
-        "description": {
-          "default": "A lightweight note-taking plugin for SiYuan, inspired by Flomo",
-          "zh_CN": "记录每一个轻闪而过的念头"
-        },
-        "disabledInPublish": true,
-        "displayName": {
-          "default": "Lumina",
-          "zh_CN": "轻语"
-        },
-        "frontends": [
-          "all"
-        ],
-        "funding": {
-          "custom": [],
-          "github": "",
-          "openCollective": "",
-          "patreon": ""
-        },
-        "keywords": [
-          "碎碎念",
-          "记录",
-          "回顾"
-        ],
-        "minAppVersion": "3.3.3",
-        "name": "siyuan-lumina",
-        "readme": {
-          "default": "README.md"
-        },
-        "url": "https://github.com/LunaNorth/siyuan-lumina",
-        "version": "1.1.9"
-      },
-      "size": 243443,
-      "stars": 2,
-      "updated": "2026-04-29T23:53:13Z",
-      "url": "LunaNorth/siyuan-lumina@41a66ace5aedda5b908b62c97885016ff30b1865"
     },
     {
       "installSize": 3290084,
