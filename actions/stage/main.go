@@ -470,6 +470,11 @@ func validatePackageMetadata(meta *packageValidationMeta) error {
 		}
 	}
 
+	// author
+	if err := util.ValidatePlainStringForHTML(meta.basePkg.Author); err != nil {
+		return fmt.Errorf("author invalid: %w", err)
+	}
+
 	// readme：声明的 README 文件在解压后的包内存在（路径大小写敏感）
 	if meta.basePkg.Readme != nil {
 		for _, readmePath := range meta.basePkg.Readme {
@@ -866,11 +871,12 @@ func getRepoLatestRelease(repoURL string) (hash, published, packageZip string, o
 	return
 }
 
-// sanitizePackageDisplayStrings 对集市包直接显示的信息做 HTML 转义，避免 XSS。（跟思源内核代码保持一致）
+// sanitizePackageDisplayStrings 对集市包直接显示的信息做 HTML 转义，避免 XSS。（跟思源内核 kernel/bazaar/package.go 保持一致）
 func sanitizePackageDisplayStrings(pkg *Package) {
 	if pkg == nil {
 		return
 	}
+	pkg.Author = html.EscapeString(pkg.Author)
 	for k, v := range pkg.DisplayName {
 		pkg.DisplayName[k] = html.EscapeString(v)
 	}

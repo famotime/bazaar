@@ -481,6 +481,13 @@ func checkRepo(
 				}
 				nameSetMutex.Unlock()
 			}
+
+			if attrsCheckResult.Author.Pass {
+				if err := util.ValidatePlainStringForHTML(attrsCheckResult.Author.Value); err != nil {
+					logger.Warnf("repo [%s] author [%s] invalid: %v", repoPath, attrsCheckResult.Author.Value, err)
+					attrsCheckResult.Author.Pass = false
+				}
+			}
 		}
 
 		attrsCheckResult.Name.Pass = attrsCheckResult.Name.Exist &&
@@ -919,8 +926,8 @@ func checkManifestAttrs(fileURL string) (attrsCheckResult *Attrs, err error) {
 			attrsCheckResult.Version.Pass = true
 		}
 	}
-	if author := manifest["author"]; author != nil {
-		if value := author.(string); value != "" {
+	if author, ok := manifest["author"]; ok && author != nil {
+		if value, strOK := author.(string); strOK && value != "" {
 			attrsCheckResult.Author.Value = value
 			attrsCheckResult.Author.Pass = true
 		}
